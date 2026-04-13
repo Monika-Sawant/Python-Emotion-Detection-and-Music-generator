@@ -1,0 +1,16 @@
+
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# Project Outputs
+output.mid
+output.wav
+
+# AI Model Data
+.cache/
+hub/
+
+# Soundfonts
+*.sf2
