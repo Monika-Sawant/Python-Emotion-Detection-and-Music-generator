@@ -1,24 +1,9 @@
-# Emotion-Based Music Generator - Requirements
-# =============================================
-
-# Core Dependencies
-transformers==4.35.2          # Emotion detection model
-torch==2.0.1                  # PyTorch backend for transformers
-midiutil==1.2.1               # MIDI file creation
-pygame==2.5.2                 # Audio playback
-
-# Optional but Recommended
-pydub==0.25.1                 # Advanced audio processing
-scipy==1.11.4                 # Scientific computing (for fallback audio)
-numpy==1.24.3                 # Numerical computing
-
-# For Windows users (optional):
-# - Install FluidSynth from: http://www.fluidsynth.org/download/
-# - Or install Timidity from: http://timidity.sourceforge.net/
-
-# For Linux users (optional):
-# - Ubuntu/Debian: sudo apt-get install fluidsynth timidity
-# - Fedora: sudo dnf install fluidsynth timidity
-
-# For macOS users (optional):
-# - brew install fluidsynth timidity
+opencv-python==4.8.1.78
+numpy==1.24.3
+pillow==10.0.0
+torch==2.0.1
+transformers==4.33.2
+scipy==1.11.2
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+simpleaudio==1.1.25
